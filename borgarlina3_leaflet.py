@@ -71,6 +71,7 @@ def create_map(lina1_wgs84, all_dwellings_smallarea):
 
     # Display the map
     display(m)
+    m.save("name_test.html")
 
 def main():
   geojson_file = "cityline_2025.geojson"
